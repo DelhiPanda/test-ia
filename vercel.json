@@ -2,7 +2,7 @@
     "rewrites": [
       {
         "source": "/api",
-        "destination": "https://test-ia-api.vercel.app"
+        "destination": "https://test-ia-api.onrender.com"
       }
     ]
   }
