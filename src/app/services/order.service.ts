@@ -8,7 +8,7 @@ import { CreateOrderDto, Order } from '../models/order.interface';
   providedIn: 'root'
 })
 export class OrderService {
-  private apiUrl = 'http://localhost:3000/orders'; // URL de la API NestJS
+  private apiUrl = 'api/orders'; // URL de la API NestJS
 
   constructor(private http: HttpClient) {}
 
