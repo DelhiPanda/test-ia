@@ -8,7 +8,7 @@ import { CreateOrderDto, Order } from '../models/order.interface';
   providedIn: 'root'
 })
 export class OrderService {
-  private apiUrl = 'api/orders'; // URL de la API NestJS
+  private apiUrl = 'https://test-ia-api.onrender.com/orders'; // URL de la API NestJS
 
   constructor(private http: HttpClient) {}
 

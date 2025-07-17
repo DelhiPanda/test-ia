@@ -8,7 +8,7 @@ import { Product, CreateProductDto } from '../models/product.interface';
   providedIn: 'root'
 })
 export class ProductService {
-  private apiUrl = 'api/products'; // URL de la API NestJS
+  private apiUrl = 'https://test-ia-api.onrender.com/products'; // URL de la API NestJS
 
   constructor(private http: HttpClient) {}
 
